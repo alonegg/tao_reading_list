@@ -1,0 +1,16 @@
+/* Custom typography styles */
+.prose-academic {
+  @apply prose-lg prose-slate max-w-none;
+}
+
+.prose-academic h1 {
+  @apply text-4xl font-serif tracking-tight;
+}
+
+.prose-academic h2 {
+  @apply text-2xl font-serif tracking-wide border-b pb-2 mb-6;
+}
+
+.section-card {
+  @apply bg-white rounded-lg shadow-md p-6 backdrop-blur-sm;
+}
